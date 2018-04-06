@@ -1,0 +1,15 @@
+{
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "files": [
+    "config",
+    "package.json",
+    "package-lock.json",
+    "scripts",
+    "init.sh",
+    "index.js"
+  ],
+  "type": "docker",
+  "name": "gh-notifications-cron"
+}

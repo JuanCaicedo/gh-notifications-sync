@@ -1,9 +1,11 @@
 const axios = require('axios')
+const config = require('config')
+const userId = process.argv[2] || 'github|4341496'
+const url = config.get('api.url')
 
 const sync = async () => {
   try {
-    await axios.post('http://localhost:3000/sync', { userId: 'github|4341496' })
-    console.log('Synced successfully')
+    await axios.post(`${url}/sync`, { userId })
     console.log('Synced successfully')
   } catch (e) {
     console.error('Sync failed with:', e)

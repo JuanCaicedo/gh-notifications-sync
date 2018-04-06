@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "continuous": "node scripts/continuous.js",
-    "once": "node scripts/once.js"
+    "once": "node scripts/once.js",
+    "start": "micro"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "config": "^1.29.2",
+    "micro": "^9.1.4",
     "ramda": "^0.25.0"
   }
 }

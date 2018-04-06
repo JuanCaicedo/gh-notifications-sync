@@ -1,6 +1,6 @@
 FROM node:8.11.1-slim
 
-LABEL name "gh-notifications-sync"
+LABEL name "gh-notifications-cron"
 
 RUN mkdir /app
 WORKDIR /app

@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
     "config": "^1.29.2",
     "micro": "^9.1.4",
     "ramda": "^0.25.0"
